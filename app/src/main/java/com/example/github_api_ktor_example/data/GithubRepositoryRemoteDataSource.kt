@@ -8,7 +8,6 @@ class GithubRepositoryRemoteDataSource : GithubRepositoryDataSource {
     private val client = HttpClient {
         install(JsonFeature)
     }
-
     override suspend fun getRepositoryInfo(owner: String, repo: String): String {
         return client.use { client.get("https://api.github.com/repos/$owner/$repo") }
     }
