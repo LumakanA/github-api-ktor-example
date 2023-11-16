@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">github-api-ktor-example</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_repository_info">Loading Repository Info</string>
+    <string name="error_loading_data">Data loading error</string>
 </resources>
